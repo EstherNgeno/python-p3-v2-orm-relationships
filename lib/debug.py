@@ -3,7 +3,7 @@
 from __init__ import CONN, CURSOR
 from department import Department
 from employee import Employee
-import ipdb
+import ipdb # type: ignore
 
 
 def reset_database():
